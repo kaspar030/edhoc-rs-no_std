@@ -5,7 +5,7 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-edhoc-rs = { path = "../edhoc-rs/lib", default-features = false, features = ["hacspec-cc2538"] }
+edhoc-rs = { git = "https://github.com/openwsn-berkeley/edhoc-rs", branch = "crypto", default-features = false, features = ["hacspec-cc2538"] }
 hexlit = "0.5.3"
 
 # depend on an allocator
